@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://rafaelferreiradasilva.com.br/sitemap.xml
+
+# Specific rules
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/img/
+Disallow: /assets/pdf/
