@@ -11,7 +11,7 @@ const translations = {
         
         // Hero Section
         'hero-greeting': 'Olá, eu sou',
-        'hero-subtitle': 'Desenvolvedor Fullstack especializado em criar soluções web modernas e eficientes',
+        'hero-subtitle': 'Desenvolvedor fullstack especializado em criar soluções web modernas e eficientes',
         'download-cv': 'Baixar Currículo (PT)',
         'contact-btn': 'Entre em Contato',
         
@@ -27,12 +27,12 @@ const translations = {
         // Projects Section
         'projects-title': 'Projetos',
         'projects-subtitle': 'Alguns dos meus trabalhos mais recentes',
-        'project1-title': 'E-commerce Platform',
-        'project1-desc': 'Plataforma completa de e-commerce com painel administrativo, sistema de pagamento e gestão de produtos.',
-        'project2-title': 'Task Management App',
-        'project2-desc': 'Aplicação de gerenciamento de tarefas com funcionalidades colaborativas e notificações em tempo real.',
-        'project3-title': 'API REST',
-        'project3-desc': 'API robusta com autenticação JWT, documentação completa e testes automatizados.',
+        'project1-title': 'Sistema para Petshop',
+        'project1-desc': 'Plataforma para administração de almoxarifado de petshop',
+        'project2-title': 'Site Erlene Advogados',
+        'project2-desc': 'Website com blog e totalmente personalizado para escritórios juridicos',
+        'project3-title': 'Loja virtual vancouver tec',
+        'project3-desc': 'Uma loja virtual com vendas de sistemas, sites, aplicativos e scripts para seu projeto',
         'view-project': 'Ver Projeto',
         'view-code': 'Código',
         
@@ -111,7 +111,7 @@ const translations = {
         'project2-title': 'Task Management App',
         'project2-desc': 'Task management application with collaborative features and real-time notifications.',
         'project3-title': 'REST API',
-        'project3-desc': 'Robust API with JWT authentication, complete documentation and automated tests.',
+        'project3-desc': 'An online store selling systems, websites, applications and scripts for your project',
         'view-project': 'View Project',
         'view-code': 'Code',
         
