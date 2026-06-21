@@ -1,56 +1,35 @@
-# Dependencies
-node_modules/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build outputs
-dist/
-build/
+# env files
+.env*.local
 
-# Environment files
-.env
-.env.local
-.env.development
-.env.test
-.env.production
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
-# Editor directories and files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
-logs
-*.log
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Temporary folders
-tmp/
-temp/
-
-# Personal files (uncomment if needed)
-# /assets/pdf/Rafael-Silva-CV-PT.pdf
-# /assets/pdf/Rafael-Silva-CV-EN.pdf
+# IDE
+.idea
+.vscode

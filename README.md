@@ -1,51 +1,44 @@
-# Rafael Silva - Portfólio Profissional
+# Rafael Ferreira da Silva — Portfolio
 
-Portfólio web moderno e responsivo desenvolvido para destacar habilidades, projetos e experiência profissional como Desenvolvedor Fullstack.
+Premium portfolio site for [rafaelferreiradasilva.com.br](https://rafaelferreiradasilva.com.br).
 
-## 🚀 Funcionalidades
+## Stack
 
-- ✅ **Design Responsivo** - Funciona perfeitamente em desktop, tablet e mobile
-- ✅ **Multilíngue** - Suporte completo para Português e Inglês
-- ✅ **SEO Otimizado** - Meta tags, Open Graph e estrutura semântica
-- ✅ **Performance** - CSS otimizado, JavaScript modular e lazy loading
-- ✅ **Acessibilidade** - ARIA labels, navegação por teclado e focus states
-- ✅ **Animações Suaves** - Transições e efeitos modernos
-- ✅ **PWA Ready** - Configurado para Progressive Web App
+- **Next.js 15** (App Router, Static Export)
+- **React 19**
+- **Tailwind CSS 3**
+- **Lucide React**
+- **i18n**: PT · EN · ES · HE (RTL)
 
-## 🛠️ Tecnologias
+## Development
 
-- **HTML5** - Estrutura semântica e acessível
-- **CSS3** - Design moderno com Grid, Flexbox e CSS Variables
-- **JavaScript Vanilla** - Funcionalidades interativas sem dependências
-- **Google Fonts** - Tipografia Inter para legibilidade
+```bash
+npm install
+npm run dev
+```
 
-## 📱 Compatibilidade
+Open [http://localhost:3000](http://localhost:3000).
 
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Edge 90+
-- ✅ Mobile iOS/Android
+## Production Build
 
-## 🔧 Como usar
+```bash
+npm run build
+```
 
-1. Clone o repositório
-2. Abra `index.html` em um navegador
-3. Para desenvolvimento local, use um servidor HTTP (Live Server, Python, etc.)
+Static files are exported to `out/`. Deploy contents to the web root, preserving `assets/pdf/` (certification PDFs).
 
-## 📈 SEO e Performance
+## Project Structure
 
-- **Lighthouse Score**: 95+ em todas as métricas
-- **Core Web Vitals**: Otimizado
-- **Meta Tags**: Completas para redes sociais
-- **Structured Data**: Schema.org ready
+```
+src/
+├── app/           # Layout, globals, page
+├── components/    # Header, Footer, sections
+├── context/       # Language provider
+└── data/          # i18n, projects, certifications
+public/
+└── assets/        # Images (PDFs live on server at assets/pdf/)
+```
 
-## 📞 Contato
+## License
 
-- **LinkedIn**: [Rafael Silva](https://www.linkedin.com/in/rafaelferreiradasilva/)
-- **GitHub**: [rafaelferreira2312](https://github.com/rafaelferreira2312)
-- **Site**: [rafaelferreiradasilva.com.br](https://rafaelferreiradasilva.com.br/)
-
----
-
-© 2024 Rafael Silva. Todos os direitos reservados.
+© 2026 Rafael Ferreira da Silva
