@@ -112,43 +112,45 @@ export const projects: Project[] = [
   {
     id: "govstatus",
     slug: "govstatus",
-    status: "coming-soon",
-    stack: "Next.js · TypeScript · PostgreSQL · Redis · API REST",
+    status: "open-source",
+    stack: "HTML · CSS · JavaScript · PHP · JSON",
+    demo: "https://rafaelferreiradasilva.com.br/gov-status/",
+    github: "https://github.com/rafaelferreira2312/gov-status-br",
     featured: true,
     translations: {
       pt: {
-        name: "GovStatus",
+        name: "GovStatus BR",
         challenge:
           "Cidadãos não têm visibilidade unificada do status de serviços governamentais digitais (Receita, INSS, Detran).",
         architecture:
-          "Plataforma open source de monitoramento com health checks automatizados, dashboard público, API REST e alertas via webhook.",
+          "Monitor open source ultra-leve: dashboard estático dark mode, robô PHP com curl_multi concorrente, histórico JSON e descoberta automática de logos/e-mails.",
         result:
-          "Em desenvolvimento. Objetivo: transparência digital e redução de chamadas de suporte em 60%.",
+          "Dashboard público no ar monitorando órgãos federais e estaduais em tempo real. Transparência digital open source.",
       },
       en: {
-        name: "GovStatus",
+        name: "GovStatus BR",
         challenge:
           "Citizens lack unified visibility into digital government service status (Tax, Social Security, DMV).",
         architecture:
-          "Open source monitoring platform with automated health checks, public dashboard, REST API and webhook alerts.",
+          "Ultra-light open source monitor: static dark dashboard, concurrent PHP curl_multi bot, JSON history and automatic logo/email discovery.",
         result:
-          "In development. Goal: digital transparency and 60% reduction in support calls.",
+          "Live public dashboard monitoring federal and state agencies in real time. Open source digital transparency.",
       },
       es: {
-        name: "GovStatus",
+        name: "GovStatus BR",
         challenge:
           "Los ciudadanos no tienen visibilidad unificada del estado de servicios gubernamentales digitales.",
         architecture:
-          "Plataforma open source de monitoreo con health checks automatizados, dashboard público, API REST y alertas webhook.",
+          "Monitor open source ultra-ligero: dashboard estático dark mode, bot PHP curl_multi concurrente, historial JSON y descubrimiento automático.",
         result:
-          "En desarrollo. Objetivo: transparencia digital y reducción del 60% en llamadas de soporte.",
+          "Dashboard público en vivo monitoreando órganos federales y estatales. Transparencia digital open source.",
       },
       he: {
-        name: "GovStatus",
+        name: "GovStatus BR",
         challenge: "לאזרחים אין נראות מאוחדת לסטטוס שירותים ממשלתיים דיגיטליים.",
         architecture:
-          "פלטפורמת ניטור open source עם health checks, dashboard ציבורי, REST API והתראות webhook.",
-        result: "בפיתוח. מטרה: שקיפות דיגיטלית והפחתת 60% בפניות תמיכה.",
+          "Monitor open source קל: dashboard סטטי, bot PHP concurrent, JSON history וגילוי logos/emails אוטומטי.",
+        result: "Dashboard ציבורי חי לניטור סוכנויות פדרליות ומדינתיות. שקיפות דיגיטלית open source.",
       },
     },
   },
