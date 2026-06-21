@@ -25,7 +25,7 @@ export const projects: Project[] = [
     slug: "devforge",
     status: "open-source",
     stack: "HTML · CSS · JavaScript · Shell · Docker",
-    github: "https://github.com/rafaelferreira2312/devforge",
+    demo: "https://rafaelferreira2312.github.io/devforge/",
     featured: true,
     translations: {
       pt: {
@@ -69,43 +69,43 @@ export const projects: Project[] = [
     id: "forge",
     slug: "forge",
     status: "open-source",
-    stack: "Node.js · TypeScript · CLI · Docker Compose",
-    github: "https://github.com/rafaelferreira2312/devforge",
+    stack: "Rust · Tokio · SQLite · HTML · TypeScript",
+    demo: "https://rafaelferreiradasilva.com.br/forge/",
     featured: true,
     translations: {
       pt: {
         name: "Forge",
         challenge:
-          "Times precisam de ferramentas CLI unificadas para bootstrap de projetos, CI/CD local e padronização de stacks.",
+          "Usuários escrevem prompts vagos e perdem qualidade nas respostas de IA — sem contexto de domínio, stack ou intenção real.",
         architecture:
-          "CLI toolkit com templates de projeto, generators, integração Docker Compose e hooks de pre-commit configuráveis por stack.",
+          "Engenheiro de prompt automático em Rust com pipeline de 8 estágios (< 1ms), aprendizado adaptativo, suporte multimodal e multi-provider (Ollama, Groq, Claude, GPT).",
         result:
-          "Padronização de setup entre squads. Onboarding de novos devs 3x mais rápido com templates prontos.",
+          "Landing page interativa hospedada no VPS. Binário leve (~8MB RAM) que transforma ideias simples em prompts de engenheiro sênior.",
       },
       en: {
         name: "Forge",
         challenge:
-          "Teams need unified CLI tools for project bootstrap, local CI/CD and stack standardization.",
+          "Users write vague prompts and lose quality in AI responses — without domain context, stack or real intent.",
         architecture:
-          "CLI toolkit with project templates, generators, Docker Compose integration and configurable pre-commit hooks per stack.",
+          "Automatic prompt engineer in Rust with 8-stage pipeline (< 1ms), adaptive learning, multimodal support and multi-provider (Ollama, Groq, Claude, GPT).",
         result:
-          "Setup standardization across squads. New dev onboarding 3x faster with ready templates.",
+          "Interactive landing page hosted on VPS. Lightweight binary (~8MB RAM) that turns simple ideas into senior engineer prompts.",
       },
       es: {
         name: "Forge",
         challenge:
-          "Los equipos necesitan herramientas CLI unificadas para bootstrap de proyectos, CI/CD local y estandarización.",
+          "Los usuarios escriben prompts vagos y pierden calidad en respuestas de IA — sin contexto de dominio, stack o intención real.",
         architecture:
-          "CLI toolkit con templates, generators, integración Docker Compose y hooks pre-commit configurables por stack.",
+          "Ingeniero de prompt automático en Rust con pipeline de 8 etapas (< 1ms), aprendizaje adaptativo, soporte multimodal y multi-provider.",
         result:
-          "Estandarización de setup entre squads. Onboarding 3x más rápido con templates listos.",
+          "Landing page interactiva alojada en VPS. Binario ligero (~8MB RAM) que transforma ideas simples en prompts de ingeniero senior.",
       },
       he: {
         name: "Forge",
-        challenge: "צוותים צריכים כלי CLI מאוחדים ל-bootstrap, CI/CD מקומי וסטנדרטיזציה.",
+        challenge: "משתמשים כותבים prompts מעורפלים ומאבדים איכות בתשובות AI.",
         architecture:
-          "CLI toolkit עם templates, generators, Docker Compose integration ו-pre-commit hooks.",
-        result: "סטנדרטיזציה בין squads. onboarding מהיר פי 3 עם templates מוכנים.",
+          "Prompt engineer אוטומטי ב-Rust עם pipeline של 8 שלבים (< 1ms), adaptive learning ו-multi-provider.",
+        result: "Landing page אינטראקטיבי על VPS. binary קל (~8MB RAM).",
       },
     },
   },

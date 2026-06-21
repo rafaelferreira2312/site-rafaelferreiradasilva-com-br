@@ -66,17 +66,32 @@ export default function ProjectsSection() {
             </div>
           </div>
 
-          {project.github && !isComingSoon && (
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-auto inline-flex items-center gap-2 text-sm font-medium text-accentLight transition-colors hover:text-white"
-            >
-              <Github className="h-4 w-4" />
-              {t.projects.viewRepo}
-              <ExternalLink className="h-3 w-3" />
-            </a>
+          {(project.demo || project.github) && !isComingSoon && (
+            <div className="mt-auto flex flex-wrap gap-4">
+              {project.demo && (
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-emerald transition-colors hover:text-white"
+                >
+                  <ExternalLink className="h-4 w-4" />
+                  {t.projects.viewDemo}
+                </a>
+              )}
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-accentLight transition-colors hover:text-white"
+                >
+                  <Github className="h-4 w-4" />
+                  {t.projects.viewRepo}
+                  <ExternalLink className="h-3 w-3" />
+                </a>
+              )}
+            </div>
           )}
         </div>
       </article>

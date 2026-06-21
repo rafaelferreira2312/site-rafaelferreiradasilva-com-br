@@ -48,6 +48,7 @@ export interface Translation {
     architecture: string;
     result: string;
     viewRepo: string;
+    viewDemo: string;
     comingSoon: string;
     inProduction: string;
     openSource: string;
@@ -152,6 +153,7 @@ export const translations: Record<Locale, Translation> = {
       architecture: "Arquitetura",
       result: "Resultado",
       viewRepo: "Ver repositório",
+      viewDemo: "Ver site",
       comingSoon: "Em breve",
       inProduction: "Open Source",
       openSource: "Open Source",
@@ -278,6 +280,7 @@ export const translations: Record<Locale, Translation> = {
       architecture: "Architecture",
       result: "Result",
       viewRepo: "View repository",
+      viewDemo: "View site",
       comingSoon: "Coming soon",
       inProduction: "Open Source",
       openSource: "Open Source",
@@ -404,6 +407,7 @@ export const translations: Record<Locale, Translation> = {
       architecture: "Arquitectura",
       result: "Resultado",
       viewRepo: "Ver repositorio",
+      viewDemo: "Ver sitio",
       comingSoon: "Próximamente",
       inProduction: "Open Source",
       openSource: "Open Source",
@@ -513,6 +517,7 @@ export const translations: Record<Locale, Translation> = {
       architecture: "ארכיטקטורה",
       result: "תוצאה",
       viewRepo: "צפה במאגר",
+      viewDemo: "פתח אתר",
       comingSoon: "בקרוב",
       inProduction: "קוד פתוח",
       openSource: "קוד פתוח",
