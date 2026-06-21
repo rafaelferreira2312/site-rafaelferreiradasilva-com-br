@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://rafaelferreiradasilva.com.br"),
   title: "Rafael Ferreira da Silva | Tech Lead & Senior Fullstack Developer",
   description:
-    "Desenvolvedor Full Stack Sênior com 8+ anos de experiência. Especialista em Laravel, Next.js, React e fundador da Vancouver Tec.",
+    "Desenvolvedor Full Stack Sênior com 8+ anos de experiência. Especialista em Laravel, Livewire, Node.js, IA e automação. Atualmente na Andv.",
   keywords: [
     "Rafael Ferreira da Silva",
     "Tech Lead",

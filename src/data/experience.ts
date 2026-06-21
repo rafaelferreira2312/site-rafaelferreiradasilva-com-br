@@ -16,12 +16,61 @@ export interface ExperienceItem {
 
 export const experienceItems: ExperienceItem[] = [
   {
+    id: "andv",
+    translations: {
+      pt: {
+        role: "Desenvolvedor Full Stack Sênior",
+        company: "Andv — Sistemas, Aplicativos e Automação com IA",
+        period: "Jun 2026 — Presente",
+        stack: "Laravel · Livewire · Node.js · React · React Native · Claude · IA · n8n · PHP",
+        achievements: [
+          "Desenvolve sistemas web sob medida com automação inteligente e integração de IA (Claude, ChatGPT)",
+          "Constrói aplicativos mobile Android/iOS e integrações via API, WhatsApp e webhooks",
+          "Atua em projetos de transformação digital — ERP, CRM, dashboards e automação de processos",
+        ],
+      },
+      en: {
+        role: "Senior Full Stack Developer",
+        company: "Andv — Systems, Apps & AI Automation",
+        period: "Jun 2026 — Present",
+        stack: "Laravel · Livewire · Node.js · React · React Native · Claude · AI · n8n · PHP",
+        achievements: [
+          "Builds custom web systems with intelligent automation and AI integration (Claude, ChatGPT)",
+          "Develops Android/iOS mobile apps and integrations via API, WhatsApp and webhooks",
+          "Works on digital transformation — ERP, CRM, dashboards and process automation",
+        ],
+      },
+      es: {
+        role: "Desarrollador Full Stack Senior",
+        company: "Andv — Sistemas, Apps y Automatización con IA",
+        period: "Jun 2026 — Presente",
+        stack: "Laravel · Livewire · Node.js · React · React Native · Claude · IA · n8n · PHP",
+        achievements: [
+          "Desarrolla sistemas web a medida con automatización inteligente e integración de IA (Claude, ChatGPT)",
+          "Construye apps mobile Android/iOS e integraciones vía API, WhatsApp y webhooks",
+          "Actúa en proyectos de transformación digital — ERP, CRM, dashboards y automatización",
+        ],
+      },
+      he: {
+        role: "Senior Full Stack Developer",
+        company: "Andv — Systems, Apps & AI Automation",
+        period: "Jun 2026 — היום",
+        stack: "Laravel · Livewire · Node.js · React · React Native · Claude · AI · n8n · PHP",
+        achievements: [
+          "מפתח מערכות web מותאמות עם אוטומציה חכמה ואינטגרציית AI (Claude, ChatGPT)",
+          "בונה אפליקציות mobile Android/iOS ואינטגרציות via API, WhatsApp ו-webhooks",
+          "עובד על digital transformation — ERP, CRM, dashboards ו-automation",
+        ],
+      },
+    },
+  },
+  {
     id: "vancouver-tec",
     translations: {
       pt: {
         role: "Fundador & Desenvolvedor Full Stack Sênior",
         company: "Vancouver Tec Soluções em Tecnologia",
-        period: "2018 — Presente",
+        period: "2018 — 2026",
         stack: "Next.js · Laravel · Node.js · React · Docker · AWS · VPS · CI/CD",
         achievements: [
           "Fundou agência digital no Rio de Janeiro focada em sites, sistemas, apps e DevOps",
@@ -33,7 +82,7 @@ export const experienceItems: ExperienceItem[] = [
       en: {
         role: "Founder & Senior Full Stack Developer",
         company: "Vancouver Tec Technology Solutions",
-        period: "2018 — Present",
+        period: "2018 — 2026",
         stack: "Next.js · Laravel · Node.js · React · Docker · AWS · VPS · CI/CD",
         achievements: [
           "Founded digital agency in Rio de Janeiro focused on websites, systems, apps and DevOps",
@@ -45,7 +94,7 @@ export const experienceItems: ExperienceItem[] = [
       es: {
         role: "Fundador & Desarrollador Full Stack Senior",
         company: "Vancouver Tec Soluciones en Tecnología",
-        period: "2018 — Presente",
+        period: "2018 — 2026",
         stack: "Next.js · Laravel · Node.js · React · Docker · AWS · VPS · CI/CD",
         achievements: [
           "Fundó agencia digital en Río de Janeiro enfocada en sitios, sistemas, apps y DevOps",
@@ -57,7 +106,7 @@ export const experienceItems: ExperienceItem[] = [
       he: {
         role: "מייסד & Senior Full Stack Developer",
         company: "Vancouver Tec Technology Solutions",
-        period: "2018 — היום",
+        period: "2018 — 2026",
         stack: "Next.js · Laravel · Node.js · React · Docker · AWS · VPS · CI/CD",
         achievements: [
           "ייסד סוכנות דיגיטלית ב-Rio de Janeiro",

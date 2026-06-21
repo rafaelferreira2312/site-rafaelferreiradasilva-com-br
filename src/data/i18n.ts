@@ -96,7 +96,7 @@ export const translations: Record<Locale, Translation> = {
     meta: {
       title: "Rafael Ferreira da Silva | Tech Lead & Senior Fullstack Developer",
       description:
-        "Desenvolvedor Full Stack Sênior com 8+ anos de experiência. Especialista em Laravel, Next.js, React, arquiteturas escaláveis e fundador da Vancouver Tec.",
+        "Desenvolvedor Full Stack Sênior com 8+ anos de experiência. Especialista em Laravel, Livewire, Node.js, IA e automação. Atualmente na Andv.",
       ogTitle: "Rafael Ferreira da Silva — Tech Lead & Senior Fullstack",
       ogDescription:
         "Desenvolvedor Full Stack Sênior com 8+ anos construindo sistemas reais para Fiocruz, JBS/Seara e clientes B2B.",
@@ -110,10 +110,10 @@ export const translations: Record<Locale, Translation> = {
       downloadCv: "Baixar CV",
     },
     hero: {
-      badge: "Senior Full Stack Engineer · Fundador Vancouver Tec",
+      badge: "Senior Full Stack Engineer · Andv",
       title: "Rafael Ferreira da Silva",
       subtitle:
-        "Desenvolvedor Full Stack Sênior com 8+ anos de experiência | Fundador da Vancouver Tec | Projetos para Fiocruz/Fiotec e JBS/Seara (GROWE).",
+        "Desenvolvedor Full Stack Sênior · Andv (IA & Automação) · Laravel · Livewire · Node.js · Mobile · Projetos Fiocruz, JBS/Seara e Vancouver Tec.",
       ctaPrimary: "Ver Casos de Sucesso",
       ctaSecondary: "Baixar CV / Resumé",
     },
@@ -144,7 +144,7 @@ export const translations: Record<Locale, Translation> = {
     },
     experience: {
       title: "Experiência & Trajetória",
-      subtitle: "Histórico profissional verificado — Fiocruz, IFF, Atime, Protel e Vancouver Tec",
+      subtitle: "Histórico profissional — Andv, Vancouver Tec, Fiocruz, IFF, Atime e Protel",
     },
     projects: {
       title: "Projetos de Elite & Cases de Sucesso",
@@ -223,7 +223,7 @@ export const translations: Record<Locale, Translation> = {
     meta: {
       title: "Rafael Ferreira da Silva | Tech Lead & Senior Fullstack Developer",
       description:
-        "Senior Full Stack Developer with 8+ years of experience. Expert in Laravel, Next.js, React, scalable architectures and founder of Vancouver Tec.",
+        "Senior Full Stack Developer with 8+ years of experience. Expert in Laravel, Livewire, Node.js, AI and automation. Currently at Andv.",
       ogTitle: "Rafael Ferreira da Silva — Tech Lead & Senior Fullstack",
       ogDescription:
         "Senior Full Stack Developer with 8+ years building real systems for Fiocruz, JBS/Seara and B2B clients.",
@@ -237,10 +237,10 @@ export const translations: Record<Locale, Translation> = {
       downloadCv: "Download CV",
     },
     hero: {
-      badge: "Senior Full Stack Engineer · Vancouver Tec Founder",
+      badge: "Senior Full Stack Engineer · Andv",
       title: "Rafael Ferreira da Silva",
       subtitle:
-        "Senior Full Stack Developer with 8+ years of experience | Vancouver Tec Founder | Projects for Fiocruz/Fiotec and JBS/Seara (GROWE).",
+        "Senior Full Stack Developer · Andv (AI & Automation) · Laravel · Livewire · Node.js · Mobile · Fiocruz, JBS/Seara and Vancouver Tec projects.",
       ctaPrimary: "View Success Cases",
       ctaSecondary: "Download CV / Resumé",
     },
@@ -271,7 +271,7 @@ export const translations: Record<Locale, Translation> = {
     },
     experience: {
       title: "Experience & Journey",
-      subtitle: "Verified professional history — Fiocruz, IFF, Atime, Protel and Vancouver Tec",
+      subtitle: "Professional history — Andv, Vancouver Tec, Fiocruz, IFF, Atime and Protel",
     },
     projects: {
       title: "Elite Projects & Success Cases",
@@ -350,7 +350,7 @@ export const translations: Record<Locale, Translation> = {
     meta: {
       title: "Rafael Ferreira da Silva | Tech Lead & Senior Fullstack Developer",
       description:
-        "Desarrollador Full Stack Senior con 8+ años de experiencia. Experto en Laravel, Next.js, React, arquitecturas escalables y fundador de Vancouver Tec.",
+        "Desarrollador Full Stack Senior con 8+ años de experiencia. Experto en Laravel, Livewire, Node.js, IA y automatización. Actualmente en Andv.",
       ogTitle: "Rafael Ferreira da Silva — Tech Lead & Senior Fullstack",
       ogDescription:
         "Desarrollador Full Stack Senior con 8+ años construyendo sistemas reales para Fiocruz, JBS/Seara y clientes B2B.",
@@ -364,10 +364,10 @@ export const translations: Record<Locale, Translation> = {
       downloadCv: "Descargar CV",
     },
     hero: {
-      badge: "Senior Full Stack Engineer · Fundador Vancouver Tec",
+      badge: "Senior Full Stack Engineer · Andv",
       title: "Rafael Ferreira da Silva",
       subtitle:
-        "Desarrollador Full Stack Senior con 8+ años de experiencia | Fundador de Vancouver Tec | Proyectos para Fiocruz/Fiotec y JBS/Seara (GROWE).",
+        "Desarrollador Full Stack Senior · Andv (IA y Automatización) · Laravel · Livewire · Node.js · Mobile · Proyectos Fiocruz, JBS/Seara y Vancouver Tec.",
       ctaPrimary: "Ver Casos de Éxito",
       ctaSecondary: "Descargar CV / Resumé",
     },
@@ -398,7 +398,7 @@ export const translations: Record<Locale, Translation> = {
     },
     experience: {
       title: "Experiencia & Trayectoria",
-      subtitle: "Historial profesional verificado — Fiocruz, IFF, Atime, Protel y Vancouver Tec",
+      subtitle: "Historial profesional — Andv, Vancouver Tec, Fiocruz, IFF, Atime y Protel",
     },
     projects: {
       title: "Proyectos de Elite & Casos de Éxito",
@@ -477,7 +477,7 @@ export const translations: Record<Locale, Translation> = {
     meta: {
       title: "רafael Ferreira da Silva | Tech Lead & Senior Fullstack Developer",
       description:
-        "Senior Full Stack Developer עם 8+ שנות ניסיון. מומחה ב-Laravel, Next.js, React, ארכיטקטורות scalable ומייסד Vancouver Tec.",
+        "Senior Full Stack Developer עם 8+ שנות ניסיון. מומחה ב-Laravel, Livewire, Node.js, AI ו-automation. כיום ב-Andv.",
       ogTitle: "Rafael Ferreira da Silva — Tech Lead & Senior Fullstack",
       ogDescription: "Senior Full Stack Developer עם 8+ שנים של בניית מערכות אמיתיות ל-Fiocruz, JBS/Seara ולקוחות B2B.",
     },
@@ -490,10 +490,10 @@ export const translations: Record<Locale, Translation> = {
       downloadCv: "הורד קורות חיים",
     },
     hero: {
-      badge: "Senior Full Stack Engineer · Vancouver Tec Founder",
+      badge: "Senior Full Stack Engineer · Andv",
       title: "Rafael Ferreira da Silva",
       subtitle:
-        "Senior Full Stack Developer עם 8+ שנות ניסיון | מייסד Vancouver Tec | פרויקטים ל-Fiocruz/Fiotec ו-JBS/Seara (GROWE).",
+        "Senior Full Stack Developer · Andv (AI & Automation) · Laravel · Livewire · Node.js · Mobile",
       ctaPrimary: "צפה במקרי הצלחה",
       ctaSecondary: "הורד קורות חיים",
     },
@@ -508,7 +508,7 @@ export const translations: Record<Locale, Translation> = {
     },
     experience: {
       title: "ניסיון & מסלול",
-      subtitle: "היסטוריה מקצועית — Fiocruz, IFF, Atime, Protel ו-Vancouver Tec",
+      subtitle: "היסטוריה מקצועית — Andv, Vancouver Tec, Fiocruz, IFF, Atime ו-Protel",
     },
     projects: {
       title: "פרויקטים מובילים & מקרי הצלחה",
