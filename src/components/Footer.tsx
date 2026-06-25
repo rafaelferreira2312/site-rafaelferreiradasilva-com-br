@@ -2,6 +2,7 @@
 
 import { Github, Linkedin } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import { GITHUB_URL, LINKEDIN_URL } from "@/data/seo";
 
 const lighthouseScores = [
   { key: "performance", value: 100 },
@@ -31,18 +32,18 @@ export default function Footer() {
             <p className="mt-1 text-sm text-muted">Tech Lead · Senior Fullstack Engineer</p>
             <div className="mt-4 flex gap-3">
               <a
-                href="https://www.linkedin.com/in/rafael-ferreira-dev"
+                href={LINKEDIN_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer me"
                 className="rounded-lg border border-border p-2.5 text-muted transition-all hover:border-accent hover:text-accentLight"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="https://github.com/rafaelferreira2312"
+                href={GITHUB_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer me"
                 className="rounded-lg border border-border p-2.5 text-muted transition-all hover:border-accent hover:text-accentLight"
                 aria-label="GitHub"
               >

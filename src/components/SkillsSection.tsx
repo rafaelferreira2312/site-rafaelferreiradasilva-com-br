@@ -3,7 +3,7 @@
 import { Award, Download, ExternalLink } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { certifications, categoryLabels } from "@/data/certifications";
-import { CV_PDF } from "@/data/experience";
+import { CV_PDF_EN, CV_PDF_PT } from "@/data/experience";
 
 export default function SkillsSection() {
   const { t, locale } = useLanguage();
@@ -49,7 +49,7 @@ export default function SkillsSection() {
 
         <div className="mb-8 flex flex-wrap justify-center gap-4">
           <a
-            href={CV_PDF}
+            href={CV_PDF_PT}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-xl border border-border bg-surface/50 px-5 py-2.5 text-sm font-medium text-white transition-all hover:border-accent/50"
@@ -58,7 +58,7 @@ export default function SkillsSection() {
             {t.skills.downloadCvPt}
           </a>
           <a
-            href={CV_PDF}
+            href={CV_PDF_EN}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-xl border border-border bg-surface/50 px-5 py-2.5 text-sm font-medium text-white transition-all hover:border-accent/50"

@@ -315,5 +315,7 @@ export const experienceItems: ExperienceItem[] = [
   },
 ];
 
-export const CV_PDF = "/assets/pdf/Curriculo-Rafael-Ferreira-da-Silva-2026.pdf";
+export const CV_PDF_PT = "/assets/pdf/Curriculo-Rafael-Ferreira-da-Silva-2026.pdf";
+export const CV_PDF_EN = "/assets/pdf/Resume-Rafael-Ferreira-da-Silva-2026.pdf";
+export const CV_PDF = CV_PDF_PT;
 export const PROFILE_IMAGE = "/assets/img/rafael-ferreira-2026.png";

@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import { Download, Menu, X } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { localeLabels, locales } from "@/data/i18n";
-import { CV_PDF } from "@/data/experience";
+import { CV_PDF_EN, CV_PDF_PT } from "@/data/experience";
 
-const navIds = ["about", "experience", "projects", "architecture", "contact"] as const;
+const navIds = ["about", "experience", "education", "projects", "architecture", "contact"] as const;
 
 export default function Header() {
   const { t, locale, setLocale } = useLanguage();
@@ -16,6 +16,7 @@ export default function Header() {
   const navLinks = [
     { id: "about", label: t.nav.about },
     { id: "experience", label: t.nav.experience },
+    { id: "education", label: t.nav.education },
     { id: "projects", label: t.nav.projects },
     { id: "architecture", label: t.nav.architecture },
     { id: "contact", label: t.nav.contact },
@@ -31,6 +32,8 @@ export default function Header() {
     setMobileOpen(false);
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
+
+  const cvPdf = locale === "en" ? CV_PDF_EN : CV_PDF_PT;
 
   return (
     <header
@@ -85,7 +88,7 @@ export default function Header() {
           </div>
 
           <a
-            href={CV_PDF}
+            href={cvPdf}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg border border-accent/50 px-4 py-2 text-sm font-medium text-accentLight transition-all hover:bg-accent hover:text-white"
@@ -134,7 +137,7 @@ export default function Header() {
               ))}
             </div>
             <a
-              href={CV_PDF}
+              href={cvPdf}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-4 py-3 text-sm font-medium text-white"

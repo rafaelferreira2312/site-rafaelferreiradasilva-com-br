@@ -21,6 +21,7 @@ export interface Translation {
   nav: {
     about: string;
     experience: string;
+    education: string;
     projects: string;
     architecture: string;
     contact: string;
@@ -38,6 +39,10 @@ export interface Translation {
     items: { value: string; label: string; detail: string }[];
   };
   experience: {
+    title: string;
+    subtitle: string;
+  };
+  education: {
     title: string;
     subtitle: string;
   };
@@ -104,6 +109,7 @@ export const translations: Record<Locale, Translation> = {
     nav: {
       about: "Sobre",
       experience: "Experiência",
+      education: "Formação",
       projects: "Projetos",
       architecture: "Arquitetura",
       contact: "Contato",
@@ -145,6 +151,10 @@ export const translations: Record<Locale, Translation> = {
     experience: {
       title: "Experiência & Trajetória",
       subtitle: "Histórico profissional — Andv, Vancouver Tec, Fiocruz, IFF, Atime e Protel",
+    },
+    education: {
+      title: "Formação Acadêmica",
+      subtitle: "Graduação em Análise de Sistemas (UFBRA) e formação técnica em Informática (ETRJ)",
     },
     projects: {
       title: "Projetos de Elite & Cases de Sucesso",
@@ -199,7 +209,7 @@ export const translations: Record<Locale, Translation> = {
     },
     contact: {
       title: "Vamos Conversar",
-      subtitle: "Disponível para oportunidades de Tech Lead, consultoria e projetos desafiadores",
+      subtitle: "Disponível para oportunidades CLT ou PJ — Tech Lead, consultoria e projetos desafiadores",
       name: "Nome",
       email: "E-mail",
       message: "Mensagem",
@@ -231,6 +241,7 @@ export const translations: Record<Locale, Translation> = {
     nav: {
       about: "About",
       experience: "Experience",
+      education: "Education",
       projects: "Projects",
       architecture: "Architecture",
       contact: "Contact",
@@ -272,6 +283,10 @@ export const translations: Record<Locale, Translation> = {
     experience: {
       title: "Experience & Journey",
       subtitle: "Professional history — Andv, Vancouver Tec, Fiocruz, IFF, Atime and Protel",
+    },
+    education: {
+      title: "Academic Background",
+      subtitle: "Bachelor's in Systems Analysis (UFBRA) and IT Technician diploma (ETRJ)",
     },
     projects: {
       title: "Elite Projects & Success Cases",
@@ -358,6 +373,7 @@ export const translations: Record<Locale, Translation> = {
     nav: {
       about: "Sobre",
       experience: "Experiencia",
+      education: "Formación",
       projects: "Proyectos",
       architecture: "Arquitectura",
       contact: "Contacto",
@@ -399,6 +415,10 @@ export const translations: Record<Locale, Translation> = {
     experience: {
       title: "Experiencia & Trayectoria",
       subtitle: "Historial profesional — Andv, Vancouver Tec, Fiocruz, IFF, Atime y Protel",
+    },
+    education: {
+      title: "Formación Académica",
+      subtitle: "Graduación en Análisis de Sistemas (UFBRA) y técnico en Informática (ETRJ)",
     },
     projects: {
       title: "Proyectos de Elite & Casos de Éxito",
@@ -484,6 +504,7 @@ export const translations: Record<Locale, Translation> = {
     nav: {
       about: "אודות",
       experience: "ניסיון",
+      education: "השכלה",
       projects: "פרויקטים",
       architecture: "ארכיטקטורה",
       contact: "צור קשר",
@@ -509,6 +530,10 @@ export const translations: Record<Locale, Translation> = {
     experience: {
       title: "ניסיון & מסלול",
       subtitle: "היסטוריה מקצועית — Andv, Vancouver Tec, Fiocruz, IFF, Atime ו-Protel",
+    },
+    education: {
+      title: "השכלה אקדמית",
+      subtitle: "תואר ראשון בניתוח מערכות (UFBRA) ותעודת טכנאי IT (ETRJ)",
     },
     projects: {
       title: "פרויקטים מובילים & מקרי הצלחה",

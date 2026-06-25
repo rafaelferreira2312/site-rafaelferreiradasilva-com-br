@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import PortfolioApp from "@/components/PortfolioApp";
 import { PROFILE_IMAGE } from "@/data/experience";
+import { portfolioJsonLd } from "@/data/jsonLd";
+import { PERSON_NAME, SITE_URL } from "@/data/seo";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -14,19 +16,22 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://rafaelferreiradasilva.com.br"),
   title: "Rafael Ferreira da Silva | Tech Lead & Senior Fullstack Developer",
   description:
-    "Desenvolvedor Full Stack Sênior com 8+ anos de experiência. Especialista em Laravel, Livewire, Node.js, IA e automação. Atualmente na Andv.",
+    "Desenvolvedor Full Stack Sênior e Tech Lead com 8+ anos de experiência. Laravel, Livewire, Node.js, IA e automação. Atualmente na Andv. Disponível CLT e PJ.",
   keywords: [
-    "Rafael Ferreira da Silva",
+    PERSON_NAME,
+    "Desenvolvedor Full Stack Sênior",
     "Tech Lead",
-    "Senior Fullstack Developer",
-    "Laravel",
-    "Next.js",
-    "React",
-    "Arquitetura de Software",
+    "Contratar desenvolvedor",
+    "Desenvolvedor Laravel",
+    "Desenvolvedor Node.js",
+    "Automação com IA",
+    "Rio de Janeiro",
+    "CLT",
+    "PJ",
     "Portfólio",
   ],
-  authors: [{ name: "Rafael Ferreira da Silva", url: "https://rafaelferreiradasilva.com.br" }],
-  creator: "Rafael Ferreira da Silva",
+  authors: [{ name: PERSON_NAME, url: SITE_URL }],
+  creator: PERSON_NAME,
   openGraph: {
     type: "website",
     locale: "pt_BR",
@@ -53,61 +58,15 @@ export const metadata: Metadata = {
     images: [PROFILE_IMAGE],
   },
   alternates: {
-    canonical: "https://rafaelferreiradasilva.com.br",
+    canonical: SITE_URL,
     languages: {
-      "pt-BR": "https://rafaelferreiradasilva.com.br",
-      en: "https://rafaelferreiradasilva.com.br",
-      es: "https://rafaelferreiradasilva.com.br",
-      he: "https://rafaelferreiradasilva.com.br",
+      "pt-BR": SITE_URL,
+      en: SITE_URL,
+      es: SITE_URL,
+      he: SITE_URL,
     },
   },
   robots: { index: true, follow: true },
-};
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Person",
-      "@id": "https://rafaelferreiradasilva.com.br/#person",
-      name: "Rafael Ferreira da Silva",
-      url: "https://rafaelferreiradasilva.com.br",
-      image: "https://rafaelferreiradasilva.com.br/assets/img/rafael-ferreira-2026.png",
-      jobTitle: "Senior Full Stack Developer",
-      worksFor: {
-        "@type": "Organization",
-        name: "Vancouver Tec Soluções em Tecnologia",
-      },
-      sameAs: [
-        "https://www.linkedin.com/in/rafael-ferreira-dev",
-        "https://github.com/rafaelferreira2312",
-      ],
-      knowsAbout: [
-        "Laravel",
-        "Next.js",
-        "React",
-        "Node.js",
-        "System Architecture",
-        "Microservices",
-        "DDD",
-      ],
-    },
-    {
-      "@type": "ProfilePage",
-      "@id": "https://rafaelferreiradasilva.com.br/#profilepage",
-      url: "https://rafaelferreiradasilva.com.br",
-      name: "Rafael Ferreira da Silva — Portfolio",
-      isPartOf: { "@id": "https://rafaelferreiradasilva.com.br/#website" },
-      about: { "@id": "https://rafaelferreiradasilva.com.br/#person" },
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://rafaelferreiradasilva.com.br/#website",
-      url: "https://rafaelferreiradasilva.com.br",
-      name: "Rafael Ferreira da Silva — Portfolio",
-      publisher: { "@id": "https://rafaelferreiradasilva.com.br/#person" },
-    },
-  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -118,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(portfolioJsonLd) }}
         />
       </head>
       <body className={`${inter.variable} antialiased`}>{children}</body>

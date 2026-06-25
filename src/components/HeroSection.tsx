@@ -3,10 +3,11 @@
 import Image from "next/image";
 import { ArrowDown, Download, ExternalLink } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
-import { CV_PDF, PROFILE_IMAGE } from "@/data/experience";
+import { CV_PDF_EN, CV_PDF_PT, PROFILE_IMAGE } from "@/data/experience";
 
 export default function HeroSection() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
+  const cvPdf = locale === "en" ? CV_PDF_EN : CV_PDF_PT;
 
   const scrollToProjects = () => {
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
@@ -44,7 +45,7 @@ export default function HeroSection() {
               <ExternalLink className="h-4 w-4" aria-hidden="true" />
             </button>
             <a
-              href={CV_PDF}
+              href={cvPdf}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-border bg-surface/50 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:border-accent/50 hover:bg-surface"

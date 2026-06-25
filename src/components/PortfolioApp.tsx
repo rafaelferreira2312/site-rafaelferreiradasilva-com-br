@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import MetricsSection from "@/components/MetricsSection";
 import ExperienceSection from "@/components/ExperienceSection";
+import EducationSection from "@/components/EducationSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ArchitectureSection from "@/components/ArchitectureSection";
 import SkillsSection from "@/components/SkillsSection";
@@ -19,6 +20,7 @@ export default function PortfolioApp() {
         <HeroSection />
         <MetricsSection />
         <ExperienceSection />
+        <EducationSection />
         <ProjectsSection />
         <ArchitectureSection />
         <SkillsSection />

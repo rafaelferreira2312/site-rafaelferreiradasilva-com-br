@@ -3,6 +3,7 @@
 import { FormEvent, useState } from "react";
 import { Linkedin, Mail, Send } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import { EMAIL, LINKEDIN_URL } from "@/data/seo";
 
 export default function ContactSection() {
   const { t } = useLanguage();
@@ -18,7 +19,7 @@ export default function ContactSection() {
 
     const subject = encodeURIComponent(`Portfolio Contact — ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
-    window.location.href = `mailto:rafaelferreira2312@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:${EMAIL}?subject=${subject}&body=${body}`;
     setSent(true);
     setTimeout(() => setSent(false), 4000);
   };
@@ -91,9 +92,9 @@ export default function ContactSection() {
             <p className="text-sm text-muted">{t.contact.orConnect}</p>
 
             <a
-              href="https://www.linkedin.com/in/rafael-ferreira-dev"
+              href={LINKEDIN_URL}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer me"
               className="glass-card flex items-center gap-4 rounded-xl p-5 transition-all hover:border-accent/30"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#0A66C2]/20">
@@ -106,7 +107,7 @@ export default function ContactSection() {
             </a>
 
             <a
-              href="mailto:rafaelferreira2312@gmail.com"
+              href={`mailto:${EMAIL}`}
               className="glass-card flex items-center gap-4 rounded-xl p-5 transition-all hover:border-accent/30"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10">
